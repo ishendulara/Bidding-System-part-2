@@ -1,0 +1,80 @@
+@charset "ISO-8859-1";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://www.cpomagazine.com/wp-content/uploads/2019/10/equifax-lawsuit-reveals-embarrassingly-lax-security-protections_1500.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+     
+}
+header {
+    background-color: #1d1d1d;
+    color: #fff; 
+    padding: 20px; 
+    display: flex;
+    justify-content:center;
+    align-items: center; 
+    height: 90px;
+    padding-left: 30px;
+    position: absolute;
+        top: 0;
+        width: 100%;
+    position:fixed;
+    z-index: 1;
+    font-family: 'Gabarito', cursive;   
+}
+.logo {
+    width: 200px;
+    height: 250px;
+    position: relative;
+    right: 600px;
+    top : 15px
+}
+.update_event{
+    position: absolute;
+    color: aliceblue;
+    background-color:  rgba(80, 80, 80, 0.7);
+    border-radius: 20px;
+    left: 50%; 
+    top: 70%; 
+    transform: translate(-50%, -50%); 
+    text-align: center; 
+    padding: 70px;
+    animation: fade-in 0.5s ease-in;
+}
+.div_form {
+    margin-bottom: 20px;
+}
+
+.div_form label {
+    font-weight: bold;
+}
+
+.div_form input[type="text"],
+.div_form input[type="date"],
+.div_form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.div_form textarea {
+    height: 100px;
+}
+
+.update_button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

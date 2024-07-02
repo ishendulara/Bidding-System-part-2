@@ -1,0 +1,84 @@
+@charset "ISO-8859-1";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://www.shutterstock.com/image-photo/legal-law-concept-image-gavel-260nw-1708224493.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+     
+}
+header {
+    background-color: #1d1d1d;
+    color: #fff; 
+    padding: 20px; 
+    display: flex;
+    justify-content:center;
+    align-items: center; 
+    height: 90px;
+    padding-left: 30px;
+    position: absolute;
+        top: 0;
+        width: 100%;
+    position:fixed;
+    z-index: 1;
+    font-family: 'Gabarito', cursive;   
+}
+.logo {
+    width: 200px;
+    height: 250px;
+    position: relative;
+    right: 600px;
+    top : 15px
+}
+.div_form {
+    margin-bottom: 20px;
+}
+
+.summary{
+    position: absolute;
+    color: #ded8d8;
+    background-color:#2e6383b5;
+    border-radius: 20px;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-50%, -50%); 
+    text-align: center; 
+    padding: 70px;
+    animation: fade-in 0.5s ease-in;
+}
+.summary_item {
+  margin: 10px 0;
+  text-align: left;
+}
+
+h1 {
+  color: #f1f109;
+}
+
+strong {
+  font-weight: bold;
+}
+
+.update_button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.delete_button {
+    background-color:#ca0808;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
